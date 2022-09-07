@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário</title>
+</head>
+<body> 
+
+    <div class="header">
+        <h1 class="title">Olá! Eu gostaria de saber mais sobre você!</h1>
+        
+    </div>
+
+     <form class="campo">
+         
+        <p class="sub-title">Complete as Informações.</p>
+         <div class="name">
+            <label for="Nome"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="name" required> 
+         </div>   
+
+
+         <div class="age"> 
+             <label><strong>Qual é a sua idade?</strong></label>
+             <input type="text" name="nome" id="age" required> 
+         </div>
+
+         <div class="sex"> 
+             <label for="qual é o sexo dessa pessoa?"><strong>Qual é o seu sexo?</strong></label>
+             <select id="sex">
+                 <option selected disabled value="">Escolha</option> 
+                 <option>Masculino</opition>
+                 <option>Feminino</option>
+             </select>
+         </div>
+         <div class="instrument">
+             <label for="O que você deseja aprender?"><strong>O Que você deseja aprender?</strong></label>
+                <select id="instrument">
+                    <option selected disabled value="">Escolha</option> 
+                    <option>Ukulele</opition>
+                    <option>Violão</option>
+                    <option>Flauta Doce</option>
+                    <option id="flute">Flauta Transvesal</option>
+                    <option>Musicalização Infantil</option>
+                    <option>Canto</option>
+                </select>
+         </div>
+
+         <div class="experience"> 
+            <label><strong>Você já teve alguma experiencia com esse intrumento?</strong></label>
+            <select id="experience">
+                <option selected disabled value="">Escolha</option> 
+                <option>Sim</opition>
+                <option>Não</option>
+            </select>
+         </div>
+         <div class="feedback">
+            <br>
+            <label><strong>Se sim, me conte como foi.</strong></label>
+            <input type="text" name="nome" id="comment1" required> 
+         </div>
+
+         <div class="about-you">
+             <br>
+             <label><strong>Agora, fale um pouco sobre você!</strong></label>
+             <input type="text" name="nome" id="comment2" required> 
+         </div>
+         <div class="button">
+               <input class="botão" type="submit" name="submit" onclick="whatsapp()" value="Enviar">
+         </div>
+
+
+     </form> 
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>

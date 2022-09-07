@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.title{
+    font-family: Poppins;
+    color:#380B61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-title{
+    font-family: Poppins;
+    
+    color:#380B61;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+body{
+    background: linear-gradient(rgba(70, 70, 70,0.3), rgba(30, 30, 30, 1)), url(assets/tulipas.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    font-family: Poppins;
+    font-size:1em;
+    color: #59429d;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    justify-content: center;
+}
+
+
+input{
+    width: 155px;
+}
+
+.age input{
+    width: 15px;
+    margin-right: 5px;
+    color: black;
+}
+.experience input{
+    width: 15px;
+    margin-right: 5px;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+    color:#59429D;
+    margin-left: 25px;
+}
+
+label{
+    margin-left: 25px;
+}
+
+.campo{
+    background-color: #91ccff;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 15px;
+    margin-left: 30rem;
+    margin-right: 30rem;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color:#59429D;
+    display:block
+}
+
+fieldset.grupo .campo{
+    float: left;
+}
+
+.campo input[type="text"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #59429D;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #E0E0F8; 
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 45px;
+    margin-left: 10rem;
+}
+
+.botão{
+    font-size: 1.2em;
+    background: #59429D;
+    border: 0;
+    margin: 1rem 5rem;
+    color:#ffffff; 
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+}
+
+.botão:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+ /*  RESPONSIVIDADE */
+
+    /* small desktops */
+    @media (max-width: 1000px) {
+      
+    }
+
+    /* tablet */
+    @media (max-width: 688px) {
+        header{
+            padding: 0 20px;
+        }
+    }
+
+    @media (max-width: 328px) {
+       
+    }
+
+
+   
